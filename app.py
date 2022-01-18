@@ -4,6 +4,9 @@ from flask import Flask, g, redirect, render_template, request, session, url_for
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
+if __name__ == '__main__':
+    app.run(debug=True)
+
 
 class User:
     def __init__(self, id, username, password):
