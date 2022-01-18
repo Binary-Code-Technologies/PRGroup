@@ -1,5 +1,13 @@
+from concurrent.futures import thread
 import os
 from flask import Flask, g, redirect, render_template, request, session, url_for
+
+
+app = Flask(__name__)
+app.secret_key = os.urandom(24)
+
+if __name__ == '__main__':
+    app.run(threaded=True, port=5000)
 
 
 class User:
@@ -15,13 +23,6 @@ class User:
 users = []
 users.append(User(id=1, username='Consultancy', password='password'))
 users.append(User(id=2, username='Real Estate', password='secret'))
-
-
-app = Flask(__name__)
-app.secret_key = os.urandom(24)
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
 
 
 @app.before_request

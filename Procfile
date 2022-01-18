@@ -1,1 +1,1 @@
-web: gunicorn app:app -b \"0.0.0.0:\33507\" -w 3
+web: flask run
