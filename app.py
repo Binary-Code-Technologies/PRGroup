@@ -1,4 +1,3 @@
-from concurrent.futures import thread
 import os
 from flask import Flask, g, redirect, render_template, request, session, url_for
 
@@ -7,7 +6,8 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 if __name__ == '__main__':
-    app.run(threaded=True, port=33507)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(threaded=True, port=port)
 
 
 class User:
