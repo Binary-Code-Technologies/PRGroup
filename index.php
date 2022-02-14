@@ -82,7 +82,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <div class="card-3d-wrapper">
                                 <div class="card-front">
                                     <div class="center-wrap">
-                                        <form action="login.php" method="post" name="logIn">
+                                        <form action="index.php" method="post" name="logIn">
                                             <div class="section text-center">
                                                 <h4 class="mb-4 pb-3">Log In</h4>
                                                 <div class="form-group">
@@ -130,7 +130,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                 </div>
                                 <div class="card-back">
                                     <div class="center-wrap">
-                                        <form action="login.php" method="post" name="signUp">
+                                        <form action="index.php" method="post" name="signUp">
                                             <div class="section text-center">
                                                 <h4 class="mb-4 pb-3">Sign Up</h4>
                                                 <div class="form-group">
