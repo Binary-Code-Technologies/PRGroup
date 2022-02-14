@@ -1,8 +1,10 @@
-<?php 
+<?php
+session_start();
+session_unset();
+session_destroy();
 
-    $cookie_name = "token";
-    $cookie_value = "nil";
-    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/PRGroup%20FrontEnd");
-    header("Location: ./index.php");
+header("location:login.php");
+exit;
+
 
 ?>
