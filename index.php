@@ -1,40 +1,17 @@
+
+   
 <?php
 $login = false;
 $showError = false;
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-  
+
   include 'partial/dbconnect.php';
   $username = $_POST["username"];
   $password = $_POST["password"];
   $firm = $_POST["firm"];
-  if(isset($_POST["logIn"]))
-  {
-    $sql = "select * from `$firm` where uName ='$username' AND password = '$password'";
-    $sql = "select * from `$firm` where uName ='$username'";
-    $result = mysqli_query($conn, $sql);
-    $num = mysqli_num_rows($result);
-
-    if($num==1){
-      while($row=mysqli_fetch_assoc($result) ){
-        // if(password_verify($password, $row['password'])){  //(password and data base password)
-          if($row['password']==$password){
-          $login = true;
-          session_start();
-          $_SESSION['loggedin'] = true;
-          $_SESSION['username'] = $username;
-          header("location: $firm\index.php");
-        }else{
-          $showError = "invalid password";
-        }
-      }
-    }
-    else{
-        $showError = "table empty";
-      }
-    }
-    if(isset($_POST["signUp"])){
-      $existSql = "SELECT * FROM `$firm` WHERE uName = '$username'";
+  if(isset($_POST["signUp"])){
+      $existSql = "SELECT * FROM `$firm` WHERE username = '$username'";
       $result = mysqli_query($conn, $existSql);
       $numExistsrows = mysqli_num_rows($result);
       if($numExistsrows > 0){
@@ -43,18 +20,45 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       }
       else{
         //$exists = false;
-        if(($password == $password)){
-          // $hash = password_hash($password , PASSWORD_DEFAULT); 
-          $sql = "INSERT INTO `$firm` ( `uName`, `password`, `dt`) VALUES ( '$username', '$password',    current_timestamp());";
+        //   $pass = password_hash($password , PASSWORD_DEFAULT);
+        //   echo "<script>console.log('$pass')</script>"; 
+          $sql = "INSERT INTO `$firm` ( `username`, `password`, `dt`) VALUES ( '$username', '$password',    current_timestamp());";
           $result = mysqli_query($conn, $sql);
           if($result){
               $showAlert = true;
-          }
+          
         }    
         else{
           $showError = "password doesnot match ";
         } 
       }
+    }else{
+        if(isset($_POST["logIn"]))
+  {
+    $sql = "select * from `$firm` where username ='$username'";
+    //$sql = "select * from `$firm` where username ='$username'";
+    $result = mysqli_query($conn, $sql);
+    $num = mysqli_num_rows($result);
+
+    if($num==1){
+      while($row=mysqli_fetch_assoc($result) ){
+          if($password == $num['password']){  //(password and data base password)
+        //   if(password_verify($password, $num['password'])){  //(password and data base password)
+            //if($num['password']==$password){
+            $login = true;
+            session_start();
+            $_SESSION['loggedin'] = true;
+            $_SESSION['username'] = $username;
+            header("location: $firm\index.php");
+        }else{
+          $showError = "invalid password";
+        }
+      }
+    }else {
+        $showError = "0 rows in table";
+    }
+   
+    }
     }
   }
 ?>
@@ -167,3 +171,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>
 </body>
 </html>
+
