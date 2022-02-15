@@ -7,7 +7,7 @@ echo "<div class=\"section footer-section\">
                     <div class=\"col-md-4\">
                         <!-- Footer Logo Start -->
                         <div class=\"footer-logo\">
-                            <a href=\"index-2.html\"><img src=\"assets/images/logo-2.png\" alt=\"Logo\"></a>
+                            <a href=\"index.php\"><img src=\"assets/images/logo-2.png\" alt=\"Logo\"></a>
                         </div>
                         <!-- Footer Logo End -->
                     </div>

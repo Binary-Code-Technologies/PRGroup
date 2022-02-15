@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from preview.colorlib.com/theme/myhome/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:38 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/myhome/single.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:38 GMT -->
 
 <head>
     <?php
@@ -15,17 +15,25 @@
             header("Location: ../index.php");
         }
     ?>
-    <title>Single Listing</title>
+    <title>PR Group | Real Estate | Listing</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="myHOME - real estate template project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
     <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="styles/single.css">
     <link rel="stylesheet" type="text/css" href="styles/single_responsive.css">
-    <script>(function (w, d) { !function (a, e, t, r, z) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zarazData.tracks = [], a.zaraz = { deferred: [] }; var s = e.getElementsByTagName("title")[0]; s && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.dataLayer = a.dataLayer || [], a.zaraz.track = (e, t) => { for (key in a.zarazData.tracks.push(e), t) a.zarazData["z_" + key] = t[key] }, a.zaraz._preSet = [], a.zaraz.set = (e, t, r) => { a.zarazData["z_" + e] = t, a.zaraz._preSet.push([e, t, r]) }, a.dataLayer.push({ "zaraz.start": (new Date).getTime() }), a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r); z.defer = !0, z.src = "../../cdn-cgi/zaraz/sd0d9.html?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script>
+    <script>(function (w, d) { !function (a, e, t, r, z) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zarazData.tracks = [], a.zaraz = { deferred: [] }; var s = e.getElementsByTagName("title")[0]; s && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.dataLayer = a.dataLayer || [], a.zaraz.track = (e, t) => { for (key in a.zarazData.tracks.push(e), t) a.zarazData["z_" + key] = t[key] }, a.zaraz._preSet = [], a.zaraz.set = (e, t, r) => { a.zarazData["z_" + e] = t, a.zaraz._preSet.push([e, t, r]) }, a.dataLayer.push({ "zaraz.start": (new Date).getTime() }), a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r); z.defer = !0, z.src = "../../cdn-cgi/zaraz/sd0d9.php?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script>
 </head>
 
 <body>
@@ -44,11 +52,11 @@
                 </div>
                 <nav class="menu_nav">
                     <ul>
-                        <li><a href="index-2.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="listings.html">Listings</a></li>
-                        <li><a href="blog.html">News</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="listings.php">Listings</a></li>
+                        <li><a href="blog.php">News</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -403,8 +411,8 @@
                                     </div>
                                     <div
                                         class="listing_small_tags d-flex flex-row align-items-start justify-content-start flex-wrap">
-                                        <div class="listing_small_tag tag_house"><a href="listings.html">house</a></div>
-                                        <div class="listing_small_tag tag_sale"><a href="listings.html">for sale</a>
+                                        <div class="listing_small_tag tag_house"><a href="listings.php">house</a></div>
+                                        <div class="listing_small_tag tag_sale"><a href="listings.php">for sale</a>
                                         </div>
                                     </div>
                                     <div class="listing_small_price">$ 562 346</div>
@@ -413,7 +421,7 @@
                                     <div
                                         class="listing_small_location d-flex flex-row align-items-start justify-content-start">
                                         <img src="images/xicon_1.png.pagespeed.ic.QA6TsfCPEY.png" alt="">
-                                        <a href="single.html">280 Doe Meadow Drive Landover, MD 20785</a>
+                                        <a href="single.php">280 Doe Meadow Drive Landover, MD 20785</a>
                                     </div>
                                     <div class="listing_small_info">
                                         <ul class="d-flex flex-row align-items-center justify-content-start flex-wrap">
@@ -454,11 +462,11 @@
                                 <nav class="footer_nav order-md-2 order-1 ml-md-auto">
                                     <ul
                                         class="d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
-                                        <li><a href="index-2.html">Home</a></li>
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="listings.html">Listings</a></li>
-                                        <li><a href="blog.html">News</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About us</a></li>
+                                        <li><a href="listings.php">Listings</a></li>
+                                        <li><a href="blog.php">News</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -499,6 +507,6 @@
         crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from preview.colorlib.com/theme/myhome/single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:42 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/myhome/single.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:42 GMT -->
 
 </html>

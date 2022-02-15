@@ -17,8 +17,8 @@ echo "<header class=\"header\">
 
             <li class=\"d-flex flex-row align-items-center justify-content-start\">
               <div><img src=\"images/envelope.svg\" alt=\"\"></div>
-              <span><a href=\"https://preview.colorlib.com/cdn-cgi/l/email-protection\" class=\"__cf_email__\"
-                  data-cfemail=\"f49c9b87809d9a93b4979b9a80959780da979b99\">[email&#160;protected]</a></span>
+              <span><a href=\"mailto:prconsultant.raipur@gmail.com\"
+                  style=\"color: white\">prconsultant.raipur@gmail.com</a></span>
             </li>
           </ul>
         </div>
@@ -32,27 +32,44 @@ echo "<header class=\"header\">
               <li><a href=\"#\"><i class=\"fa fa-behance\" aria-hidden=\"true\"></i></a></li>
             </ul>
           </div>
-          <div class=\"log_reg d-flex flex-row align-items-center justify-content-start\">
+          <!-- <div class=\"log_reg d-flex flex-row align-items-center justify-content-start\">
             <ul class=\"d-flex flex-row align-items-start justify-content-start\">
               <li><a href=\"../logout.php\">Logout</a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class=\"header_content d-flex flex-row align-items-center justify-content-start\">
-        <div class=\"logo\"><a href=\"#\">my<span>home</span></a></div>
+        <div class=\"logo\"><a href=\"#\">PR<span>Group</span></a></div>
         <nav class=\"main_nav\">
           <ul class=\"d-flex flex-row align-items-start justify-content-start\">
-            <li class=\"active\"><a href=\"index-2.html\">Home</a></li>
-            <li><a href=\"about.html\">About us</a></li>
-            <li><a href=\"listings.html\">Listings</a></li>
-            <li><a href=\"blog.html\">News</a></li>
-            <li><a href=\"contact.html\">Contact</a></li>
+            <li><a href=\"index.php\">Home</a></li>
+            <li><a href=\"about.php\">About us</a></li>
+            <li><a href=\"listings.php\">Listings</a></li>
+            <li><a href=\"contact.php\">Contact</a></li>
           </ul>
         </nav>
-        <div class=\"submit ml-auto\"><a href=\"#\">submit listing</a></div>
+        <div class=\"submit ml-auto\"><a href=\"../logout.php\">Logout</a></div>
         <div class=\"hamburger ml-auto\"><i class=\"fa fa-bars\" aria-hidden=\"true\"></i></div>
       </div>
-    </header>"
+    </header>
+    <div class=\"menu text-right\">
+      <div class=\"menu_close\"><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div>
+      <div class=\"menu_log_reg\">
+        <div class=\"log_reg d-flex flex-row align-items-center justify-content-end\">
+          <ul class=\"d-flex flex-row align-items-start justify-content-start\">
+            <li><a href=\"../logout.php\">Logout</a></li>
+          </ul>
+        </div>
+        <nav class=\"menu_nav\">
+          <ul>
+            <li><a href=\"index.php\">Home</a></li>
+            <li><a href=\"about.php\">About us</a></li>
+            <li><a href=\"listings.php\">Listings</a></li>
+            <li><a href=\"contact.php\">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>"
 ?>

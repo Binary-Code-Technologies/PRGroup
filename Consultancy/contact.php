@@ -8,7 +8,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from template.hasthemes.com/consor/consor/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:49 GMT -->
+<!-- Mirrored from template.hasthemes.com/consor/consor/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:49 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,9 +17,15 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
-    <!-- CSS
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">    <!-- CSS
 	============================================ -->
 
     <!-- Icon Font CSS -->
@@ -65,32 +71,32 @@
         <!-- Mobile Menu Start -->
         <div class="mobile-menu-items">
             <ul class="nav-menu">
-                <li><a href="index-2.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
                 <li>
                     <a href="#">Services</a>
                     <ul class="sub-menu">
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="services-details.html">Services Details</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="services-details.php">Services Details</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Pages </a>
                     <ul class="sub-menu">
-                        <li><a href="cases.html">Cases</a></li>
-                        <li><a href="cases-details.html">Cases Details</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="404-error.html">404 Error</a></li>
+                        <li><a href="cases.php">Cases</a></li>
+                        <li><a href="cases-details.php">Cases Details</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="404-error.php">404 Error</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Blog</a>
                     <ul class="sub-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="blog-details.php">Blog Details</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
 
         </div>
@@ -111,7 +117,7 @@
             <div class="page-banner-content">
                 <h3 class="title">Contact Us</h3>
                 <ul class="breadcrumb">
-                    <li><a href="index-2.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li class="active">Contact Us</li>
                 </ul>
             </div>
@@ -349,5 +355,5 @@
 </body>
 
 
-<!-- Mirrored from template.hasthemes.com/consor/consor/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:50 GMT -->
+<!-- Mirrored from template.hasthemes.com/consor/consor/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:50 GMT -->
 </html>

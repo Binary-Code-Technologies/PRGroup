@@ -22,13 +22,22 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
     <title>Consor - Business Consulting Bootstrap 5 Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
     <!-- CSS
 	============================================ -->
 
@@ -75,32 +84,32 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
         <!-- Mobile Menu Start -->
         <div class="mobile-menu-items">
             <ul class="nav-menu">
-                <li><a href="index-2.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
                 <li>
                     <a href="#">Services</a>
                     <ul class="sub-menu">
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="services-details.html">Services Details</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="services-details.php">Services Details</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Pages </a>
                     <ul class="sub-menu">
-                        <li><a href="cases.html">Cases</a></li>
-                        <li><a href="cases-details.html">Cases Details</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="404-error.html">404 Error</a></li>
+                        <li><a href="cases.php">Cases</a></li>
+                        <li><a href="cases-details.php">Cases Details</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="404-error.php">404 Error</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Blog</a>
                     <ul class="sub-menu">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="blog-details.php">Blog Details</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
 
         </div>
@@ -252,12 +261,12 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                         <!-- Services Wrapper Start -->
                         <div class="single-service" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-images">
-                                <a href="services-details.html"><img src="assets/images/services/services-1.jpg" alt="Services"></a>
+                                <a href="services-details.php"><img src="assets/images/services/services-1.jpg" alt="Services"></a>
                             </div>
                             <div class="service-content">
-                                <h4 class="title"><a href="services-details.html">Human Resources</a></h4>
+                                <h4 class="title"><a href="services-details.php">Human Resources</a></h4>
                                 <p>Lorem Ipsum is simply dummy text the printing and typesetting industry been the industry's sandard.</p>
-                                <a href="services-details.html" class="btn">Details +</a>
+                                <a href="services-details.php" class="btn">Details +</a>
                                 <div class="shape"></div>
                             </div>
                         </div>
@@ -269,12 +278,12 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                         <!-- Services Wrapper Start -->
                         <div class="single-service" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-images">
-                                <a href="services-details.html"><img src="assets/images/services/services-2.jpg" alt="Services"></a>
+                                <a href="services-details.php"><img src="assets/images/services/services-2.jpg" alt="Services"></a>
                             </div>
                             <div class="service-content">
-                                <h4 class="title"><a href="services-details.html">Business Planning</a></h4>
+                                <h4 class="title"><a href="services-details.php">Business Planning</a></h4>
                                 <p>Lorem Ipsum is simply dummy text the printing and typesetting industry been the industry's sandard.</p>
-                                <a href="services-details.html" class="btn">Details +</a>
+                                <a href="services-details.php" class="btn">Details +</a>
                                 <div class="shape"></div>
                             </div>
                         </div>
@@ -286,12 +295,12 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                         <!-- Services Wrapper Start -->
                         <div class="single-service" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-images">
-                                <a href="services-details.html"><img src="assets/images/services/services-3.jpg" alt="Services"></a>
+                                <a href="services-details.php"><img src="assets/images/services/services-3.jpg" alt="Services"></a>
                             </div>
                             <div class="service-content">
-                                <h4 class="title"><a href="services-details.html">Insurance Consulting</a></h4>
+                                <h4 class="title"><a href="services-details.php">Insurance Consulting</a></h4>
                                 <p>Lorem Ipsum is simply dummy text the printing and typesetting industry been the industry's sandard.</p>
-                                <a href="services-details.html" class="btn">Details +</a>
+                                <a href="services-details.php" class="btn">Details +</a>
                                 <div class="shape"></div>
                             </div>
                         </div>
@@ -458,7 +467,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                             <img src="assets/images/cases/cases-1.jpg" alt="Cases">
 
                             <div class="cases-content">
-                                <h3 class="title"><a href="cases-details.html">Business Consulting</a></h3>
+                                <h3 class="title"><a href="cases-details.php">Business Consulting</a></h3>
                                 <span class="tags">business / company</span>
                             </div>
                         </div>
@@ -466,7 +475,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                             <img src="assets/images/cases/cases-2.jpg" alt="Cases">
 
                             <div class="cases-content">
-                                <h3 class="title"><a href="cases-details.html">Fiancial Management</a></h3>
+                                <h3 class="title"><a href="cases-details.php">Fiancial Management</a></h3>
                                 <span class="tags">business / company</span>
                             </div>
                         </div>
@@ -474,7 +483,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
                             <img src="assets/images/cases/cases-3.jpg" alt="Cases">
 
                             <div class="cases-content">
-                                <h3 class="title"><a href="cases-details.html">Business Imvesment</a></h3>
+                                <h3 class="title"><a href="cases-details.php">Business Imvesment</a></h3>
                                 <span class="tags">business / company</span>
                             </div>
                         </div>

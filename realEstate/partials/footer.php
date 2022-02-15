@@ -6,7 +6,7 @@ echo " <footer class=\"footer\">
 
             <div class=\"col-xl-3 col-lg-6 footer_col\">
               <div class=\"footer_about\">
-                <div class=\"footer_logo\"><a href=\"#\">my<span>home</span></a></div>
+                <div class=\"footer_logo\"><a href=\"#\">PR<span>Group</span></a></div>
                 <div class=\"footer_text\">
                   <p>Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum dictum.
                     Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo cursus in.</p>
@@ -20,7 +20,6 @@ echo " <footer class=\"footer\">
                     <li><a href=\"#\"><i class=\"fa fa-behance\" aria-hidden=\"true\"></i></a></li>
                   </ul>
                 </div>
-                <div class=\"footer_submit\"><a href=\"#\">submit listing</a></div>
               </div>
             </div>
 
@@ -41,10 +40,11 @@ echo " <footer class=\"footer\">
                     </li>
 
                     <li class=\"d-flex flex-row align-items-center justify-content-start\">
-                      <div><img src=\"images/envelope.svg\" alt=\"\"></div>
-                      <span><a href=\"https://preview.colorlib.com/cdn-cgi/l/email-protection\" class=\"__cf_email__\"
-                          data-cfemail=\"8be3e4f8ffe2e5eccbe8e4e5ffeae8ffa5e8e4e6\">[email&#160;protected]</a></span>
+                      <div><img src=\"images/envelope.svg\" alt=\"\" height=\"200px\"></div>
+                      <span><a href=\"mailto:prconsultant.raipur@gmail.com\"
+                  style=\"color: grey\">prconsultant.<br>raipur@gmail.com</a></span>
                     </li>
+                    
                   </ul>
                 </div>
                 <div class=\"footer_links usefull_links\">
@@ -85,15 +85,15 @@ echo " <footer class=\"footer\">
                     <img src=\"images/xlisting_1.jpg.pagespeed.ic.ToWZJDbbgp.jpg\" alt=\"\">
                   </div>
                   <div class=\"listing_small_tags d-flex flex-row align-items-start justify-content-start flex-wrap\">
-                    <div class=\"listing_small_tag tag_house\"><a href=\"listings.html\">house</a></div>
-                    <div class=\"listing_small_tag tag_sale\"><a href=\"listings.html\">for sale</a></div>
+                    <div class=\"listing_small_tag tag_house\"><a href=\"listings.php\">house</a></div>
+                    <div class=\"listing_small_tag tag_sale\"><a href=\"listings.php\">for sale</a></div>
                   </div>
                   <div class=\"listing_small_price\">$ 562 346</div>
                 </div>
                 <div class=\"listing_small_content\">
                   <div class=\"listing_small_location d-flex flex-row align-items-start justify-content-start\">
                     <img src=\"images/xicon_1.png.pagespeed.ic.QA6TsfCPEY.png\" alt=\"\">
-                    <a href=\"single.html\">280 Doe Meadow Drive Landover, MD 20785</a>
+                    <a href=\"single.php\">280 Doe Meadow Drive Landover, MD 20785</a>
                   </div>
                   <div class=\"listing_small_info\">
                     <ul class=\"d-flex flex-row align-items-center justify-content-start flex-wrap\">
@@ -134,11 +134,11 @@ echo " <footer class=\"footer\">
                 <nav class=\"footer_nav order-md-2 order-1 ml-md-auto\">
                   <ul
                     class=\"d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start\">
-                    <li><a href=\"index-2.html\">Home</a></li>
-                    <li><a href=\"about.html\">About us</a></li>
-                    <li><a href=\"listings.html\">Listings</a></li>
-                    <li><a href=\"blog.html\">News</a></li>
-                    <li><a href=\"contact.html\">Contact</a></li>
+                    <li><a href=\"index.php\">Home</a></li>
+                    <li><a href=\"about.php\">About us</a></li>
+                    <li><a href=\"listings.php\">Listings</a></li>
+                    <li><a href=\"blog.php\">News</a></li>
+                    <li><a href=\"contact.php\">Contact</a></li>
                   </ul>
                 </nav>
               </div>

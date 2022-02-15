@@ -7,19 +7,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from preview.colorlib.com/theme/myhome/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:36 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/myhome/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:36 GMT -->
 
 <head>
-    <title>Contact</title>
+    <title>PR Group | Real Estate | Contact</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="myHOME - real estate template project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
     <link rel="stylesheet" type="text/css"
         href="A.styles%2c%2c_bootstrap-4.1.2%2c%2c_bootstrap.min.css%2bplugins%2c%2c_font-awesome-4.7.0%2c%2c_css%2c%2c_font-awesome.min.css%2cMcc.XrACKigGzR.css.pagespeed.cf.mwMGq_rPWL.css" />
     <link rel="stylesheet" type="text/css"
         href="styles/contact.css%2bcontact_responsive.css.pagespeed.cc.8bp3CPWyPa.css" />
-    <script>(function (w, d) { !function (a, e, t, r, z) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zarazData.tracks = [], a.zaraz = { deferred: [] }; var s = e.getElementsByTagName("title")[0]; s && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.dataLayer = a.dataLayer || [], a.zaraz.track = (e, t) => { for (key in a.zarazData.tracks.push(e), t) a.zarazData["z_" + key] = t[key] }, a.zaraz._preSet = [], a.zaraz.set = (e, t, r) => { a.zarazData["z_" + e] = t, a.zaraz._preSet.push([e, t, r]) }, a.dataLayer.push({ "zaraz.start": (new Date).getTime() }), a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r); z.defer = !0, z.src = "../../cdn-cgi/zaraz/sd0d9.html?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script>
+    <script>(function (w, d) { !function (a, e, t, r, z) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zarazData.tracks = [], a.zaraz = { deferred: [] }; var s = e.getElementsByTagName("title")[0]; s && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.dataLayer = a.dataLayer || [], a.zaraz.track = (e, t) => { for (key in a.zarazData.tracks.push(e), t) a.zarazData["z_" + key] = t[key] }, a.zaraz._preSet = [], a.zaraz.set = (e, t, r) => { a.zarazData["z_" + e] = t, a.zaraz._preSet.push([e, t, r]) }, a.dataLayer.push({ "zaraz.start": (new Date).getTime() }), a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r); z.defer = !0, z.src = "../../cdn-cgi/zaraz/sd0d9.php?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script>
 </head>
 
 <body>
@@ -27,26 +35,6 @@
         <div class="super_overlay"></div>
         <?php include("partials/header.php"); ?>
 
-        <div class="menu text-right">
-            <div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-            <div class="menu_log_reg">
-                <div class="log_reg d-flex flex-row align-items-center justify-content-end">
-                    <ul class="d-flex flex-row align-items-start justify-content-start">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                </div>
-                <nav class="menu_nav">
-                    <ul>
-                        <li><a href="index-2.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="listings.html">Listings</a></li>
-                        <li><a href="blog.html">News</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
 
         <div class="home">
             <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg"
@@ -77,7 +65,7 @@
                 <div class="row contact_row">
 
                     <div class="col-lg-4 contact_col">
-                        <div class="logo"><a href="#">my<span>home</span></a></div>
+                        <div class="logo"><a href="#">PR<span>Group</span></a></div>
                         <div class="contact_text">
                             <p>Nulla aliquet bibendum sem, non placerat risus venenatis at. Prae sent vulputate bibendum
                                 dictum. Cras at vehicula urna. Suspendisse fringilla lobortis justo, ut tempor leo
@@ -104,9 +92,9 @@
                                     <div class="d-flex flex-column align-items-center justify-content-center">
                                         <div><img src="images/envelope-2.svg" alt=""></div>
                                     </div>
-                                    <span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection"
-                                            class="__cf_email__"
-                                            data-cfemail="3c54534f4855525b7c5f5352485d5f48125f5351">[email&#160;protected]</a></span>
+                                    <span><a href="mailto:prconsultant.raipur@gmail.com"
+                                            style="color: black">prconsultant.raipur@gmail.com</a></span>
+
                                 </li>
                             </ul>
                         </div>
@@ -187,6 +175,6 @@
         crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from preview.colorlib.com/theme/myhome/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:38 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/myhome/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:54:38 GMT -->
 
 </html>
