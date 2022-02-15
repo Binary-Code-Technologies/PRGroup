@@ -3,64 +3,82 @@
 <?php
 $login = false;
 $showError = false;
+$showAlert = false;
+
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-
+  
   include 'partial/dbconnect.php';
   $username = $_POST["username"];
   $password = $_POST["password"];
   $firm = $_POST["firm"];
+  
+
   if(isset($_POST["signUp"])){
       $existSql = "SELECT * FROM `$firm` WHERE username = '$username'";
       $result = mysqli_query($conn, $existSql);
       $numExistsrows = mysqli_num_rows($result);
       if($numExistsrows > 0){
-        //$exists = true;
-        $showError = " username already exists";
-      }
+         $exists = true;
+         $showError = " username already exists";
+        }
       else{
-        //$exists = false;
-        //   $pass = password_hash($password , PASSWORD_DEFAULT);
-        //   echo "<script>console.log('$pass')</script>"; 
-          $sql = "INSERT INTO `$firm` ( `username`, `password`, `dt`) VALUES ( '$username', '$password',    current_timestamp());";
-          $result = mysqli_query($conn, $sql);
-          if($result){
-              $showAlert = true;
-          
+          $exists = false;
+          if(($password == $password)){
+               $hash = password_hash($password , PASSWORD_DEFAULT); 
+       
+               $sql = "INSERT INTO `$firm` ( `username`, `password`, `dt`) VALUES ( '$username', '$hash',    current_timestamp());";
+               $result = mysqli_query($conn, $sql);
+               if($result){
+                  $showAlert = true;
+          }
         }    
-        else{
+      else{
           $showError = "password doesnot match ";
         } 
       }
-    }else{
-        if(isset($_POST["logIn"]))
-  {
-    $sql = "select * from `$firm` where username ='$username'";
-    //$sql = "select * from `$firm` where username ='$username'";
-    $result = mysqli_query($conn, $sql);
-    $num = mysqli_num_rows($result);
-
-    if($num==1){
-      while($row=mysqli_fetch_assoc($result) ){
-          if($password == $num['password']){  //(password and data base password)
-        //   if(password_verify($password, $num['password'])){  //(password and data base password)
-            //if($num['password']==$password){
-            $login = true;
-            session_start();
-            $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $username;
-            header("location: $firm\index.php");
-        }else{
-          $showError = "invalid password";
-        }
-      }
-    }else {
-        $showError = "0 rows in table";
-    }
    
     }
-    }
-  }
+
+
+ 
+  if(isset($_POST["logIn"])){
+   
+       include 'partial/dbconnect.php';
+       $username = $_POST["username"];
+       $password = $_POST["password"];
+       $firm = $_POST["firm"];
+       //$sql = "select * from firm where username ='$username' AND password = '$password'";
+       $sql = "select * from $firm where username ='$username'";
+       $result = mysqli_query($conn, $sql);
+       $num = mysqli_num_rows($result);
+       
+       if($num == 1){
+           while($row=mysqli_fetch_assoc($result) ){
+               if(password_verify($password, $row['password'])){  //(password and data base password)
+                //if($num['password']==$password){
+                 $login = true;
+                 session_start();
+                 $_SESSION['loggedin'] = true;
+                 $_SESSION['username'] = $username;
+                 $_SESSION['password'] = $password;
+                 header("location: realEstate/index.php");
+               }
+                else{
+                  $showError = "invalid password";
+                }
+           }
+       }
+       
+     else{
+      $showError = "invalid password";
+        }
+    }    
+       
+} 
+  
+ 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -106,13 +124,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     <input type="radio" name="firm"id="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
-                                                    <input type="radio" name="firm" id="firm" value="realEstate">
+                                                    <input type="radio" name="firm" id="firm" value="realstate">
                                                     <label for="firm">Real Estate</label><br>
                                                 </div>
                                                 <?php
                                                   if($login){
                                                     echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-                                                    <strong>success</strong> sucessfully logged in
+                                                    <strong>success</strong> sucessfully logged <a href="Consultancy/index.php" in
                                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                       </button>
@@ -125,7 +143,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     <span aria-hidden="true">&times;</span>
                                                     </button>
                                                     </div>';
-                                                  }   
+                                                  } 
+                                                  /*if($showAlert){
+                                                    echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                                      <strong>error!</strong> '.$showAlert.'
+                                                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                      </button>
+                                                      </div>';
+                                                    } */
                                                   ?>
                                                   <button type="submit" class="btn" name="logIn">Submit</button>
                                             </div>
@@ -154,7 +180,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     <input type="radio" name="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
-                                                    <input type="radio" name="firm" value="realEstate">
+                                                    <input type="radio" name="firm" value="realstate">
                                                     <label for="firm">Real Estate</label><br>
                                                 </div>
                                                 <button type="submit" class="btn mt-4" name="signUp">Submit</button>
