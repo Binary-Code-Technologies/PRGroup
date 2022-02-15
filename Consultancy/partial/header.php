@@ -6,7 +6,7 @@ echo "<div class=\"header-area bg-dark\">
             <div class=\"header-wrapper\">
                 <!-- Header Logo Start -->
                 <div class=\"header-logo\">
-                    <a href=\"index-2.html\"><img src=\"assets/images/logo.png\" alt=\"Logo\"></a>
+                    <a href=\"index-2.html\"><img src=\"assets/images/logo.svg\" alt=\"Logo\" height=\"100px\"></a>
                 </div>
                 <!-- Header Logo End -->
 

@@ -34,8 +34,7 @@ echo "<header class=\"header\">
           </div>
           <div class=\"log_reg d-flex flex-row align-items-center justify-content-start\">
             <ul class=\"d-flex flex-row align-items-start justify-content-start\">
-              <li><a href=\"#\">Login</a></li>
-              <li><a href=\"#\">Register</a></li>
+              <li><a href=\"../logout.php\">Logout</a></li>
             </ul>
           </div>
         </div>

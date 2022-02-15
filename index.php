@@ -1,6 +1,15 @@
-
-   
 <?php
+session_start();
+if(isset($_SESSION['loggedin'])){
+if($_SESSION['loggedin']==true){
+    if($_SESSION['firm']=='realestate'){
+        header("location:realestate");
+    }else{
+        if ($_SESSION['firm']=='consultancy') {
+            header("location:consultancy");
+        }
+    }
+}}
 $login = false;
 $showError = false;
 $showAlert = false;
@@ -60,9 +69,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                  $login = true;
                  session_start();
                  $_SESSION['loggedin'] = true;
+                 $_SESSION['firm'] = $firm;
                  $_SESSION['username'] = $username;
                  $_SESSION['password'] = $password;
-                 header("location: realEstate/index.php");
+                 header("location: $firm");
                }
                 else{
                   $showError = "invalid password";
@@ -124,7 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     <input type="radio" name="firm"id="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
-                                                    <input type="radio" name="firm" id="firm" value="realstate">
+                                                    <input type="radio" name="firm" id="firm" value="realestate">
                                                     <label for="firm">Real Estate</label><br>
                                                 </div>
                                                 <?php
@@ -180,7 +190,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     <input type="radio" name="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
-                                                    <input type="radio" name="firm" value="realstate">
+                                                    <input type="radio" name="firm" value="realestate">
                                                     <label for="firm">Real Estate</label><br>
                                                 </div>
                                                 <button type="submit" class="btn mt-4" name="signUp">Submit</button>

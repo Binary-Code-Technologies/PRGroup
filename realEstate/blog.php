@@ -1,3 +1,9 @@
+<?php 
+  session_start();
+  if($_SESSION['firm']!='realestate'|| $_SESSION['loggedin']==false){
+    header("location:../index.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
