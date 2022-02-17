@@ -1,0 +1,7 @@
+{
+    "name": "binarycodetechnologies/pr-group",
+    "description": "website for pr-group",
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
