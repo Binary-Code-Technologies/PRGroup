@@ -73,7 +73,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                  $_SESSION['username'] = $formUname;
                  $_SESSION['password'] = $formPasswd;
                     if($firm=='realestate'){
-                        header("location:realestate");
+                        header("location:realEstate");
                     }else{
                         if($firm=='Consultancy'){
                             header("location:Consultancy");
