@@ -1,14 +1,20 @@
-<?php 
-  session_start();
-  if($_SESSION['firm']!='realestate'|| $_SESSION['loggedin']==false){
-    header("location:../index.php");
-  }
-  ?>
 <!DOCTYPE html>
 <html lang="en">
   
 <head>
   <title>PR Group | Real Estate</title>
+<?php
+session_start();
+ 
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+  header("location:index.php");
+}
+else{
+    if($_SESSION['firm']=="consultancy"){
+        header("location:../consultancy");
+    }
+}
+?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="PR Group | Real Estate">

@@ -1,23 +1,20 @@
-<?php 
-  session_start();
-  if($_SESSION['firm']!='Consultancy' || $_SESSION['loggedin']==false){
-    header("location:../index.php");
-  }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 
 <!-- Mirrored from template.hasthemes.com/consor/consor/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:16 GMT -->
 <head>
-    <?php
+<?php
 session_start();
  
-if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin']!=true){
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
   header("location:index.php");
-  exit;
 }
-
+else{
+    if($_SESSION['firm']=="realestate"){
+        header("location:../realestate");
+    }
+}
 ?>
 
     <meta charset="utf-8">

@@ -1,15 +1,15 @@
 <?php
 session_start();
-if(isset($_SESSION['loggedin'])){
 if($_SESSION['loggedin']==true){
     if($_SESSION['firm']=='realestate'){
         header("location:realestate");
     }else{
-        if ($_SESSION['firm']=='Consultancy') {
-            header("location:Consultancy");
+        if ($_SESSION['firm']=='consultancy') {
+            header("location:consultancy");
         }
     }
-}}
+}
+
 $login = false;
 $showError = false;
 $showAlert = false;
@@ -72,13 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                  $_SESSION['firm'] = $firm;
                  $_SESSION['username'] = $formUname;
                  $_SESSION['password'] = $formPasswd;
-                    if($firm=='realestate'){
-                        header("location:realEstate");
-                    }else{
-                        if($firm=='Consultancy'){
-                            header("location:Consultancy");
-                        }
-                    }
+                header("location:$firm");
                }
                 else{
                   $showError = "invalid password";
