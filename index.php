@@ -54,25 +54,31 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   if(isset($_POST["logIn"])){
    
        include 'partial/dbconnect.php';
-       $username = $_POST["username"];
-       $password = $_POST["password"];
+       $formUname = $_POST["username"];
+       $formPasswd = $_POST["password"];
        $firm = $_POST["firm"];
        //$sql = "select * from firm where username ='$username' AND password = '$password'";
-       $sql = "select * from $firm where username ='$username'";
+       $sql = "select * from $firm where username ='$formUname'";
        $result = mysqli_query($conn, $sql);
        $num = mysqli_num_rows($result);
        
        if($num == 1){
            while($row=mysqli_fetch_assoc($result) ){
-               if(password_verify($password, $row['password'])){  //(password and data base password)
+               if(password_verify($formPasswd, $row['password'])){  //(password and data base password)
                 //if($num['password']==$password){
                  $login = true;
                  session_start();
                  $_SESSION['loggedin'] = true;
                  $_SESSION['firm'] = $firm;
-                 $_SESSION['username'] = $username;
-                 $_SESSION['password'] = $password;
-                 header("location: $firm");
+                 $_SESSION['username'] = $formUname;
+                 $_SESSION['password'] = $formPasswd;
+                    if($firm=='realestate'){
+                        header("location:realestate");
+                    }else{
+                        if($firm=='consultancy'){
+                            header("location:consultancy");
+                        }
+                    }
                }
                 else{
                   $showError = "invalid password";
@@ -96,6 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>PR Group | Login/SignUp</title>
+
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
     <link rel="stylesheet" href="styles/loginForm.css">   
@@ -131,7 +138,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm"id="firm" value="Consultancy"
+                                                    <input type="radio" name="firm"id="firm" value="consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" id="firm" value="realestate">
@@ -187,7 +194,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm" value="Consultancy"
+                                                    <input type="radio" name="firm" value="consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" value="realestate">
