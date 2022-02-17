@@ -138,7 +138,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm"id="firm" value="Consultancy"
+                                                    <input type="radio" name="firm"id="firm" value="consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" id="firm" value="realestate">
@@ -194,7 +194,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm" value="Consultancy"
+                                                    <input type="radio" name="firm" value="consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" value="realestate">
