@@ -1,16 +1,22 @@
-<?php 
-  session_start();
-  if($_SESSION['firm']!='Consultancy' || $_SESSION['loggedin']==false){
-    header("location:../index.php");
-  }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 
 <!-- Mirrored from template.hasthemes.com/consor/consor/services-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Feb 2022 19:46:43 GMT -->
 <head>
-    <meta charset="utf-8">
+<?php
+session_start();
+ 
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+  header("location:index.php");
+}
+else{
+    if($_SESSION['firm']=="realestate"){
+        header("location:../realestate");
+    }
+}
+?>
+<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Consor - Business Consulting Bootstrap 5 Template</title>
     <meta name="robots" content="noindex, follow" />

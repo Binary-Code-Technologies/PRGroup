@@ -1,8 +1,14 @@
-<?php 
-  session_start();
-  if($_SESSION['firm']!='realestate'|| $_SESSION['loggedin']==false){
-    header("location:../index.php");
-  }
+realEstate<?php
+session_start();
+ 
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+  header("location:index.php");
+}
+else{
+    if($_SESSION['firm']=="consultancy"){
+        header("location:../consultancy");
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
