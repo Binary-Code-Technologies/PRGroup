@@ -5,8 +5,8 @@ if($_SESSION['loggedin']==true){
     if($_SESSION['firm']=='realestate'){
         header("location:realestate");
     }else{
-        if ($_SESSION['firm']=='consultancy') {
-            header("location:consultancy");
+        if ($_SESSION['firm']=='Consultancy') {
+            header("location:Consultancy");
         }
     }
 }}
@@ -75,8 +75,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     if($firm=='realestate'){
                         header("location:realestate");
                     }else{
-                        if($firm=='consultancy'){
-                            header("location:consultancy");
+                        if($firm=='Consultancy'){
+                            header("location:Consultancy");
                         }
                     }
                }
@@ -138,7 +138,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm"id="firm" value="consultancy"
+                                                    <input type="radio" name="firm"id="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" id="firm" value="realestate">
@@ -194,7 +194,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                 </div>
                                                 <div class="form-group mt-2">
                                                     <br>
-                                                    <input type="radio" name="firm" value="consultancy"
+                                                    <input type="radio" name="firm" value="Consultancy"
                                                         checked>
                                                     <label for="firm" claSs="mr-4">Consultancy</label>
                                                     <input type="radio" name="firm" value="realestate">

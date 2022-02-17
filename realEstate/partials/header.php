@@ -34,7 +34,7 @@ echo "<header class=\"header\">
           </div>
           <!-- <div class=\"log_reg d-flex flex-row align-items-center justify-content-start\">
             <ul class=\"d-flex flex-row align-items-start justify-content-start\">
-              <li><a href=\"../logout.php\">Logout</a></li>
+              <li><a href=\"../logOut.php\">Logout</a></li>
             </ul>
           </div> -->
         </div>
@@ -50,7 +50,7 @@ echo "<header class=\"header\">
             <li><a href=\"contact.php\">Contact</a></li>
           </ul>
         </nav>
-        <div class=\"submit ml-auto\"><a href=\"../logout.php\">Logout</a></div>
+        <div class=\"submit ml-auto\"><a href=\"../logOut.php\">Logout</a></div>
         <div class=\"hamburger ml-auto\"><i class=\"fa fa-bars\" aria-hidden=\"true\"></i></div>
       </div>
     </header>
@@ -59,7 +59,7 @@ echo "<header class=\"header\">
       <div class=\"menu_log_reg\">
         <div class=\"log_reg d-flex flex-row align-items-center justify-content-end\">
           <ul class=\"d-flex flex-row align-items-start justify-content-start\">
-            <li><a href=\"../logout.php\">Logout</a></li>
+            <li><a href=\"../logOut.php\">Logout</a></li>
           </ul>
         </div>
         <nav class=\"menu_nav\">

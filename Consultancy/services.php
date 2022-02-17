@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  if($_SESSION['firm']!='consultancy' || $_SESSION['loggedin']==false){
+  if($_SESSION['firm']!='Consultancy' || $_SESSION['loggedin']==false){
     header("location:../index.php");
   }
 ?>
