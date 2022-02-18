@@ -1,15 +1,18 @@
 <?php
 session_start();
-if($_SESSION['loggedin']==true){
-    if($_SESSION['firm']=='realestate'){
-        header("location:realestate");
-    }else{
-        if ($_SESSION['firm']=='consultancy') {
-            header("location:consultancy");
+if(isset($_SESSION['loggedin'])){
+    header("Location: login.php");
+    if($_SESSION['loggedin']==true){
+        if($_SESSION['firm']=='realestate'){
+            header("location:realestate");
+        }else{
+            if ($_SESSION['firm']=='consultancy') {
+                header("location:consultancy");
+            }
         }
     }
 }
-
+    
 $login = false;
 $showError = false;
 $showAlert = false;
