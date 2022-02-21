@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.energeticthemes.com/templates/jagga/property-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:21:38 GMT -->
+<!-- Mirrored from www.energeticthemes.com/templates/PR Group/property-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:21:38 GMT -->
 
 <head>
 
@@ -23,7 +23,7 @@
 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <title>Jagga - Architectural Interior Design HTML Template</title>
+    <title>PR Group - Architectural Interior Design HTML Template</title>
     <meta name="description" content="A Template for Architectural Interior Design company website.">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -151,6 +151,6 @@
     <script src="assets/js/global.js"></script>
 </body>
 
-<!-- Mirrored from www.energeticthemes.com/templates/jagga/property-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:22:05 GMT -->
+<!-- Mirrored from www.energeticthemes.com/templates/PR Group/property-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:22:05 GMT -->
 
 </html>

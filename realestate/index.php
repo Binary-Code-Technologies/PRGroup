@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.energeticthemes.com/templates/jagga/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:18:20 GMT -->
+<!-- Mirrored from www.energeticthemes.com/templates/PR Group/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:18:20 GMT -->
 
 <head>
     <?php
@@ -22,7 +22,7 @@
 
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <title>Jagga - Architectural Interior Design HTML Template</title>
+    <title>PR Group - Architectural Interior Design HTML Template</title>
     <meta name="description" content="A Template for Architectural Interior Design company website.">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -265,7 +265,7 @@
                     <div class="col-lg-6 mn-6 bg-livender my-auto">
                         <div class="py-lg-6 px-lg-6 py-md-6 px-md-5 py-5 px-4"><i
                                 class="mb-4 h2 display-5 fas fa-quote-left text-cornflower-blue"></i>
-                            <p class="paragraph-extend mb-lg-5 mb-md-4 mb-3">We are so happy to have found Jagga and do
+                            <p class="paragraph-extend mb-lg-5 mb-md-4 mb-3">We are so happy to have found PR Group and do
                                 not know how we could have made it through buying process without them.</p>
                             <h5>Daniel J. Carr</h5>
                             <p class="mb-0">Professional Content creator</p>
@@ -322,6 +322,6 @@
     <script src="assets/js/global.js"></script>
 </body>
 
-<!-- Mirrored from www.energeticthemes.com/templates/jagga/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:18:38 GMT -->
+<!-- Mirrored from www.energeticthemes.com/templates/PR Group/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Feb 2022 19:18:38 GMT -->
 
 </html>
