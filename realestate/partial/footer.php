@@ -17,11 +17,9 @@
                                     <li><a href="https://energeticthemes.com/templates/PR Group/page-contact-us.html">Contact
                                             Us</a></li>
                                     <li><a href="https://energeticthemes.com/templates/PR Group/page-contact-us.html"><span
-                                                class="__cf_email__"
-                                                data-cfemail="8fe7eae3e3e0cfc5eee8e8eea1ece0e2">[email&#160;protected]</span></a>
+                                                class="__cf_email__">prconsultant.raipur@gmail.com</span></a>
                                     </li>
-                                    <li><a href="https://energeticthemes.com/templates/PR Group/page-contact-us.html">+19
-                                            235 2518 356</a></li>
+                                    <li><a href="https://energeticthemes.com/templates/PR Group/page-contact-us.html">+91 826 9517 300</a></li>
                                     <li><a
                                             href="https://energeticthemes.com/templates/PR Group/page-contact-us.html">Careers</a>
                                     </li>
@@ -34,8 +32,7 @@
                         <div class="col-lg-5">
                             <div class="footer-widget footer-widget-3">
                                 <div class="text-abbey">
-                                    <p class="mb-0">Headquarters</p>123 Main Street New York,
-                                    <p>NY 20001</p>
+                                    <p class="mb-0">Headquarters</p>Tatibndh Oposite AIIMS Hospital Near bank of india ATM GE road Railway (CG)
                                 </div>
                             </div>
                         </div>

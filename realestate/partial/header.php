@@ -18,7 +18,7 @@
                 <ul class="nav-modules">
 
                     <li class="d-flex align-items-center"><i class="fas fa-phone-alt"></i><a
-                            class="nav-link text-ebony-clay pr-0" href="page-contact.html">+19 855 518 386</a></li>
+                            class="nav-link text-ebony-clay pr-0" href="page-contact.html">+91 826 9517 300</a></li>
                 </ul>
             </div>
         </div>

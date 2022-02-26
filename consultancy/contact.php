@@ -153,8 +153,7 @@ else{
                                 <div class="info-content">
                                     <h4 class="title">Phone:</h4>
                                     <div class="line"></div>
-                                    <p><a href="tel:00123456789">00 - 123 - 456 - 789</a></p>
-                                    <p><a href="tel:00123456789">00 - 123 - 456 - 789</a></p>
+                                    <p><a href="tel:8269517300">+91 826 9517 300</a></p>
                                 </div>
                             </div>
                             <p>Lorem Ipsum is simply dummy text typesetting indust printer took agalley of type and scrambled it to make book. It has surveved n ot only five centuries.</p>
@@ -175,8 +174,7 @@ else{
                                 <div class="info-content">
                                     <h4 class="title">Email:</h4>
                                     <div class="line"></div>
-                                    <p><a href="mailto:emo@example.com">emo@example.com</a></p>
-                                    <p><a href="mailto:emo@example.com">emo@example.com</a></p>
+                                    <p><a href="mailto:emo@example.com">prconsultant.raipur@gmail.com</a></p>
                                 </div>
                             </div>
                             <p>Lorem Ipsum is simply dummy text typesetting indust printer took agalley of type and scrambled it to make book. It has surveved n ot only five centuries.</p>
@@ -197,8 +195,7 @@ else{
                                 <div class="info-content">
                                     <h4 class="title">Address:</h4>
                                     <div class="line"></div>
-                                    <p>01. Your address here.</p>
-                                    <p>02. Your address here.</p>
+                                    <p>Tatibndh Oposite AIIMS Hospital Near bank of india ATM GE road Railway (CG)</p>
                                 </div>
                             </div>
                             <p>Lorem Ipsum is simply dummy text typesetting indust printer took agalley of type and scrambled it to make book. It has surveved n ot only five centuries.</p>

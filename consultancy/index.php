@@ -342,7 +342,7 @@ else{
 
                             <div class="contact-wrapper-02 text-center">
                                 <h3 class="title">Contact Us</h3>
-                                <p>+88 957 436 97</p>
+                                <p>+91 826 9517 300</p>
                             </div>
                         </div>
                         <!-- Call to Action Contact End -->
