@@ -2,16 +2,16 @@
 	"id": 112,
 	"date": "2021-12-02T07:59:53",
 	"date_gmt": "2021-12-02T07:59:53",
-	"guid": { "rendered": "https://vinayakjob.com/?page_id=112" },
+	"guid": { "rendered": "https://PR Consultantjob.com/?page_id=112" },
 	"modified": "2021-12-02T10:55:46",
 	"modified_gmt": "2021-12-02T10:55:46",
 	"slug": "franchise",
 	"status": "publish",
 	"type": "page",
-	"link": "https://vinayakjob.com/franchise/",
+	"link": "https://PR Consultantjob.com/franchise/",
 	"title": { "rendered": "Franchise" },
 	"content": {
-		"rendered": "\n<section class=\"wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center\" id=\"wp-block-themeisle-blocks-advanced-columns-debe9c02\"><div class=\"wp-block-themeisle-blocks-advanced-columns-overlay\"></div><div class=\"innerblocks-wrap\">\n<div class=\"wp-block-themeisle-blocks-advanced-column\" id=\"wp-block-themeisle-blocks-advanced-column-1cf06e66\">\n<h4 id=\"wp-block-themeisle-blocks-advanced-heading-b7196eeb\" class=\"wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-b7196eeb\">Become a franchise partner<br>with PR Consultant<br>and Grow your business</h4>\n\n\n\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n</div>\n\n\n\n<div class=\"wp-block-themeisle-blocks-advanced-column\" id=\"wp-block-themeisle-blocks-advanced-column-11e58f7d\">\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" width=\"750\" height=\"469\" src=\"https://i0.wp.com/vinayakjob.com/wp-content/uploads/2021/12/6685-scaled.jpg?resize=750%2C469&#038;ssl=1\" alt=\"\" class=\"wp-image-165\" data-recalc-dims=\"1\"/></figure>\n</div>\n</div></section>\n",
+		"rendered": "\n<section class=\"wp-block-themeisle-blocks-advanced-columns alignfull has-2-columns has-desktop-equal-layout has-tablet-equal-layout has-mobile-collapsedRows-layout has-nogap-gap has-vertical-center\" id=\"wp-block-themeisle-blocks-advanced-columns-debe9c02\"><div class=\"wp-block-themeisle-blocks-advanced-columns-overlay\"></div><div class=\"innerblocks-wrap\">\n<div class=\"wp-block-themeisle-blocks-advanced-column\" id=\"wp-block-themeisle-blocks-advanced-column-1cf06e66\">\n<h4 id=\"wp-block-themeisle-blocks-advanced-heading-b7196eeb\" class=\"wp-block-themeisle-blocks-advanced-heading wp-block-themeisle-blocks-advanced-heading-b7196eeb\">Become a franchise partner<br>with PR Consultant<br>and Grow your business</h4>\n\n\n\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n</div>\n\n\n\n<div class=\"wp-block-themeisle-blocks-advanced-column\" id=\"wp-block-themeisle-blocks-advanced-column-11e58f7d\">\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" width=\"750\" height=\"469\" src=\"https://i0.wp.com/PR Consultantjob.com/wp-content/uploads/2021/12/6685-scaled.jpg?resize=750%2C469&#038;ssl=1\" alt=\"\" class=\"wp-image-165\" data-recalc-dims=\"1\"/></figure>\n</div>\n</div></section>\n",
 		"protected": false
 	},
 	"excerpt": { "rendered": "", "protected": false },
@@ -24,35 +24,41 @@
 	"template": "page-templates/template-fullwidth.php",
 	"meta": { "spay_email": "" },
 	"_links": {
-		"self": [{ "href": "https://vinayakjob.com/wp-json/wp/v2/pages/112" }],
-		"collection": [{ "href": "https://vinayakjob.com/wp-json/wp/v2/pages" }],
-		"about": [{ "href": "https://vinayakjob.com/wp-json/wp/v2/types/page" }],
+		"self": [
+			{ "href": "https://PR Consultantjob.com/wp-json/wp/v2/pages/112" }
+		],
+		"collection": [
+			{ "href": "https://PR Consultantjob.com/wp-json/wp/v2/pages" }
+		],
+		"about": [
+			{ "href": "https://PR Consultantjob.com/wp-json/wp/v2/types/page" }
+		],
 		"author": [
 			{
 				"embeddable": true,
-				"href": "https://vinayakjob.com/wp-json/wp/v2/users/1"
+				"href": "https://PR Consultantjob.com/wp-json/wp/v2/users/1"
 			}
 		],
 		"replies": [
 			{
 				"embeddable": true,
-				"href": "https://vinayakjob.com/wp-json/wp/v2/comments?post=112"
+				"href": "https://PR Consultantjob.com/wp-json/wp/v2/comments?post=112"
 			}
 		],
 		"version-history": [
 			{
 				"count": 31,
-				"href": "https://vinayakjob.com/wp-json/wp/v2/pages/112/revisions"
+				"href": "https://PR Consultantjob.com/wp-json/wp/v2/pages/112/revisions"
 			}
 		],
 		"predecessor-version": [
 			{
 				"id": 207,
-				"href": "https://vinayakjob.com/wp-json/wp/v2/pages/112/revisions/207"
+				"href": "https://PR Consultantjob.com/wp-json/wp/v2/pages/112/revisions/207"
 			}
 		],
 		"wp:attachment": [
-			{ "href": "https://vinayakjob.com/wp-json/wp/v2/media?parent=112" }
+			{ "href": "https://PR Consultantjob.com/wp-json/wp/v2/media?parent=112" }
 		],
 		"curies": [
 			{ "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
