@@ -105,7 +105,7 @@
                                                 <i class="icofont-envelope-open"></i>
                                             </div>
                                             <div class="info-content">
-                                                <p><a href="mailto:consor@gmail.com">consor@gmail.com</a></p>
+                                                <p><a href="mailto:consor@gmail.com">prconsultant.raipur@gmail.com</a></p>
                                             </div>
                                         </div>
                                     </li>
